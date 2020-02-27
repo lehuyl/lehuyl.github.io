@@ -19,6 +19,7 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
+
 const DEFAULT_IMAGES = [
     { id: '1', source: full01, thumbnail: thumb01, caption: '', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
@@ -31,8 +32,8 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Steven Le Showcase"
-        const siteDescription = "A simple portfolio website."
+        const siteTitle = "Steven Le";
+        const siteDescription = "Steven Le's portfolio website which features a blog inside?";
 
         return (
             <Layout>
@@ -74,7 +75,7 @@ class HomeIndex extends React.Component {
                     <section id="three">
                         <h2>Let's Connect!</h2>
                         <p>Leave a message</p>
-                        <p class="mb-0">Feel feel to reach out to me about programming, the gym, even music!</p>
+                        <p className="mb-0 text-right">Feel feel to reach out to me about programming, the gym, even music!</p>
                         <p> Also open to Software Developer positions for Fall 2020 and onwards. </p>
                         <div className="row">
                             <div className="8u 12u$(small)">

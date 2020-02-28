@@ -21,7 +21,7 @@ import full06 from '../assets/images/fulls/06.jpg'
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: '', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '1', source: full01, thumbnail: thumb01, caption: '', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
     // { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
@@ -38,8 +38,8 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
                 </Helmet>
 
                 <div id="main">
@@ -48,8 +48,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>A sample portfolio website I am building to explore static site creation with Gatsby.</h2>
                         </header>
-                        <p>Hello! I am a Software Developer Intern working at Streamline Athletes. 
-                            We use an Angular/Nestjs/Node/MySQL tech stack. 
+                        <p>Hello! I am a Software Developer Intern working at Streamline Athletes.
+                            We use an Angular/Nestjs/Node/MySQL tech stack.
                             Currently seeking Fall 2020 internships to explore different fields.</p>
                         <p>Feel free to contact me to chat about anything! Even just powerlifting</p>
                         <ul className="actions">

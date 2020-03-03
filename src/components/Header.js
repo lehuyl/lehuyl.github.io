@@ -2,7 +2,7 @@ import React from 'react'
 
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
-import profile from '../assets/images/profile.png'
+import profile from 'https://github.com/lehuyl/personal-website/blob/e3644bdcecc6966f93d92e010ffb5c28257116d7/src/assets/images/profile.png'
 
 
 class Header extends React.Component {
